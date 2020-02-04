@@ -26,7 +26,7 @@ public class GoogleTest {
 	@Test (dependsOnMethods={"AssertPageTitle"})
 	public void GoogleSearch() {
 		WebElement SearchBox = ChromeBroswerObject.findElement(By.name("q"));
-		SearchBox.sendKeys("Selenium2");
+		SearchBox.sendKeys("Selenium");
 		SearchBox.sendKeys(Keys.ENTER);
 	}
 	@Test (priority = 1)
