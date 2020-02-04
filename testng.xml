@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testing">
+
+<test name="Test 1" parallel="tests">
+    <classes>
+         <class name="test.GoogleTest"> </class>
+    </classes>
+</test>
+</suite>
